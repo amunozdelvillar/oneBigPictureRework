@@ -12,17 +12,138 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/screen.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body class="container">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header id="header" class="col-md-12">
+            <h1 id="logo" class="col-md-7">Big Picture</h1>
+            <nav id="mainNav" class="col-md-5">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">What I do</a></li>
+                    <li><a href="#">Who I am</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="intro" class="col-md-12">
+            <div class="container">
+                <header>
+                        <h2>Hey.</h2>
+                </header>
+                <p>Welcome to <span>Big Picture</span> a responsive site template designed by HTML5UP, built on Bootstrap, H5BP and released for free under the CCA 3.0 License.</p>
+                <footer>
+                    <a href="#">Link to next</a>
+                </footer>
+            </div>
+        </section>
+        <section id="one" class="col-md-12">
+            <div class="content side-box">
+                <header>
+                    <h2>What I do</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequuntur cum delectus et fugiat nesciunt non vitae. Dignissimos, dolorem ducimus exercitationem harum inventore nemo, neque nostrum optio repellat sunt voluptatibus!</p>
+                <footer>
+                    <a href="#">Link to next</a>
+                </footer>
+            </div>
+        </section>
+        <section id="two" class="col-md-12">
+            <header>
+                <h2>Who I am</h2>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium alias aperiam, aspernatur blanditiis doloribus eaque eius laudantium libero nihil nisi quibusdam quos reiciendis soluta sunt veritatis. Commodi, dolore?</p>
+            <footer><a href="#">Link to next</a></footer>
+        </section>
+        <section id="work" class="col-md-12">
+            <article class="content container">
+                <header>
+                    <h2>My Work</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae cum cumque dicta, esse est labore modi nemo placeat possimus praesentium vero voluptas? Esse fugiat libero nisi qui rem tempora veritatis?</p>
+                <ul class="work-items">
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                    <li class="work-item">
+                        <div class="overlay">
+                            <div class="button">item</div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <section id="contact">
+            <header>
+                <h2>Say Hello</h2>
+            </header>
+            <form class="form-horizontal" action="" role="form">
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="form-name" placeholder="Name" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="form-email" placeholder="E-mail" />
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="form-msg" id="form-msg" class="form-control" cols="30" rows="10" placeholder="Message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </section>
+        <footer id="footer">
+            LEFT TODO
+        </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
